@@ -121,6 +121,8 @@
 			<wpn_fps_ass_fusil_762_lr_stg58  unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_lr_stg58_black"/>
 			<wpn_fps_ass_fusil_762_ro_stg58  unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_ro_stg58_black"/>
 			<wpn_fps_ass_fusil_762_ur_stg58  unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_ur_stg58_black"/>
+			<wpn_fps_ass_fusil_762_m_20      unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black"/>
+			<wpn_fps_ass_fusil_762_m_30      unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black"/>
 		</override>
 		<pcs/>
 	</WeaponMod>
@@ -139,6 +141,8 @@
 			<wpn_fps_ass_fusil_762_lr_stg58  unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_lr_stg58_color"/>
 			<wpn_fps_ass_fusil_762_ro_stg58  unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_ro_stg58_color"/>
 			<wpn_fps_ass_fusil_762_ur_stg58  unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_ur_stg58_color"/>
+			<wpn_fps_ass_fusil_762_m_20      unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color"/>
+			<wpn_fps_ass_fusil_762_m_30      unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color"/>
 		</override>
 		<pcs/>
 	</WeaponMod>
@@ -709,6 +713,24 @@
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_ca_stg58_black_cc"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_ca_stg58_black_cc_thq"/>
 		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_20_black_cc_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/wpn_fps_ass_fusil_762_m_30_black_cc_thq"/>
+		
 		<texture         path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/stg58_color_df"/>
 		
 		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_lr_stg58_color"/>
@@ -818,6 +840,24 @@
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_ca_stg58_color_thq"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_ca_stg58_color_cc"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_ca_stg58_color_cc_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_20_color_cc_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_m_30_color_cc_thq"/>
 		
 		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_fusil_762/wpn_fps_ass_fusil_762"/>
 		<model           path="units/mods/weapons/wpn_fps_ass_fusil_762/wpn_fps_ass_fusil_762"/>
