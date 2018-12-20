@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel materials="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_color_pts/wpn_fps_ass_fusil_762_fh_stg58_color" orientation_object="rp_wpn_fps_upg_ass_ns_battle" />
+	<graphics>
+		<object name="g_battle" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<materials version="3" group="weapon_ak12">
+    <material name="mat_bodyback" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_black_pts/stg58_black_df"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_pts/stg58_std_nm"/>
+    </material>
+</materials>

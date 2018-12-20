@@ -6,8 +6,10 @@
 	
 	"bm_menu_receiver_cover"          : "Dust Cover",
 	"bm_menu_receiver_cover_plural"   : "Dust Covers",
-	"bm_menu_pistol_grip_cover"       : "Grip",
+	"bm_menu_pistol_grip"             : "Grip",
 	"bm_menu_pistol_grip_plural"      : "Grips",
+	"bm_menu_finish"                  : "Finish",
+	"bm_menu_finish_plural"           : "Finishes",
 	
 	"bm_wp_wpn_fps_ass_fusil_762_hg_stg58_wood" : "Wooden StG-58 Handguard",
 	
@@ -24,6 +26,9 @@
 	"bm_wp_wpn_fps_ass_fusil_762_pg_fal_wood"   : "FN FAL Pistol Grip (Wooden)",
 	"bm_wp_wpn_fps_ass_fusil_762_st_fal_wood"   : "FN FAL Stock (Wooden)",
 	"bm_wp_wpn_fps_ass_fusil_762_ca_fal_wood"   : "FN FAL Carry Handle (Wooden)",
+	
+	"bm_wp_wpn_fps_ass_fusil_762_co_black"      : "Grey Metal",
+	"bm_wp_wpn_fps_ass_fusil_762_co_color"      : "StG Metal",
 	
 	"bm_wp_wpn_fps_ass_fusil_762_m_30"   	    : "30 Round Steel Magazine"
 	
