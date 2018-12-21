@@ -148,12 +148,12 @@
 	</WeaponMod>
 	
 	<Weapon unlock_level="5">
-		<weapon id="fusil_762" based_on="scar" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="5" tactical_reload="1" texture_bundle_folder="mods" global_value="fusil_762">
-			<stats damage="98" spread="17" spread_moving="17" recoil="9" concealment="18"/>
-			<fire_mode_data fire_rate="0.11666666666"/>
+		<weapon id="fusil_762" based_on="scar" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="4" can_shoot_through_shield="false" can_shoot_through_enemy="true" can_shoot_through_wall="true" tactical_reload="1" texture_bundle_folder="mods" global_value="fusil_762">
+			<stats damage="108" spread="17" spread_moving="17" recoil="11" concealment="18"/>
+			<fire_mode_data fire_rate="0.1083333333333333333333"/>
 			<AMMO_PICKUP>
-				<value_node value="1.3"/>
-				<value_node value="3.6"/>
+				<value_node value="1.5"/>
+				<value_node value="4.3"/>
 			</AMMO_PICKUP>
 			<sounds fire="fusil_762_fire" fire_single="fusil_762_fire" fire_auto="fusil_762_fire" use_fix="true">
 				<reload wp_scar_clip_slide_out="wp_fusil_762_mag_slide_out"  wp_scar_clip_slide_in="wp_fusil_762_mag_slide_in"  wp_scar_lever_pull="wp_fusil_762_bolt_pull"  wp_scar_lever_release="wp_fusil_762_bolt_release"  wp_scar_mag_slap="wp_fusil_762_mag_slap"  />
