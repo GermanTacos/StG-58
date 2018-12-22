@@ -103,6 +103,13 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<!-- MODERN -->
+	
+	<WeaponMod id="wpn_fps_ass_fusil_762_sm_modern" based_on="wpn_fps_ass_flint_body_upperreceiver" type="scope_mount"   unit="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern" texture_bundle_folder="mods" drop="imbel_woodse" is_a_unlockable="true">
+		<stats concealment="-1" recoil="1"/>
+		<pcs/>
+	</WeaponMod>
+	
 	<!-- MAGS -->
 	
 	<WeaponMod id="wpn_fps_ass_fusil_762_m_20"     based_on="wpn_fps_ass_scar_m_standard"          type="magazine"       unit="units/mods/weapons/wpn_fps_ass_fusil_762_mag_pts/wpn_fps_ass_fusil_762_m_20"    texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
@@ -231,6 +238,8 @@
 				<value_node value="wpn_fps_ass_fusil_762_dc_sa58"/>
 				
 				<value_node value="wpn_fps_ass_fusil_762_st_imbel"/>
+				
+				<value_node value="wpn_fps_ass_fusil_762_sm_modern"/>
 				
 				<value_node value="wpn_fps_ass_fusil_762_m_20"/>
 				<value_node value="wpn_fps_ass_fusil_762_m_30"/>
@@ -603,6 +612,20 @@
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_imbel_pts/wpn_fps_ass_fusil_762_st_imbel_thq"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_imbel_pts/wpn_fps_ass_fusil_762_st_imbel_cc"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_imbel_pts/wpn_fps_ass_fusil_762_st_imbel_cc_thq"/>
+		
+		<!-- MODERN PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/modern_std_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/modern_std_nm"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern_cc_thq"/>
 		
 		<!-- MAG PTS -->
 		

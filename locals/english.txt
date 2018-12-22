@@ -29,6 +29,8 @@
 	
 	"bm_wp_wpn_fps_ass_fusil_762_st_imbel"	    : "Imbel Folding Stock",
 	
+	"bm_wp_wpn_fps_ass_fusil_762_sm_modern"	    : "Modern Scope Mount",
+	
 	"bm_wp_wpn_fps_ass_fusil_762_co_black"      : "Grey Metal",
 	"bm_wp_wpn_fps_ass_fusil_762_co_color"      : "StG Metal",
 	
