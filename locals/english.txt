@@ -15,17 +15,19 @@
 	
 	"bm_wp_wpn_fps_ass_fusil_762_dc_sa58" 	    : "SA-58 Extreme Duty Dust Cover",
 	
-	"bm_wp_wpn_fps_ass_fusil_762_fh_fal"	    : "FN FAL Flash Hider",
+	"bm_wp_wpn_fps_ass_fusil_762_fh_fal"	    : "FAL Flash Hider",
 	
-	"bm_wp_wpn_fps_ass_fusil_762_hg_fal" 	    : "FN FAL Handguard (Synthetic)",
-	"bm_wp_wpn_fps_ass_fusil_762_pg_fal" 	    : "FN FAL Pistol Grip (Synthetic)",
-	"bm_wp_wpn_fps_ass_fusil_762_st_fal"	    : "FN FAL Stock (Synthetic)",
-	"bm_wp_wpn_fps_ass_fusil_762_ca_fal" 	    : "FN FAL Carry Handle (Synthetic)",
+	"bm_wp_wpn_fps_ass_fusil_762_hg_fal" 	    : "FAL Handguard (Synthetic)",
+	"bm_wp_wpn_fps_ass_fusil_762_pg_fal" 	    : "FAL Pistol Grip (Synthetic)",
+	"bm_wp_wpn_fps_ass_fusil_762_st_fal"	    : "FAL Stock (Synthetic)",
+	"bm_wp_wpn_fps_ass_fusil_762_ca_fal" 	    : "FAL Carry Handle (Synthetic)",
 	
-	"bm_wp_wpn_fps_ass_fusil_762_hg_fal_wood"   : "FN FAL Handguard (Wooden)",
-	"bm_wp_wpn_fps_ass_fusil_762_pg_fal_wood"   : "FN FAL Pistol Grip (Wooden)",
-	"bm_wp_wpn_fps_ass_fusil_762_st_fal_wood"   : "FN FAL Stock (Wooden)",
-	"bm_wp_wpn_fps_ass_fusil_762_ca_fal_wood"   : "FN FAL Carry Handle (Wooden)",
+	"bm_wp_wpn_fps_ass_fusil_762_hg_fal_wood"   : "FAL Handguard (Wooden)",
+	"bm_wp_wpn_fps_ass_fusil_762_pg_fal_wood"   : "FAL Pistol Grip (Wooden)",
+	"bm_wp_wpn_fps_ass_fusil_762_st_fal_wood"   : "FAL Stock (Wooden)",
+	"bm_wp_wpn_fps_ass_fusil_762_ca_fal_wood"   : "FAL Carry Handle (Wooden)",
+	
+	"bm_wp_wpn_fps_ass_fusil_762_st_imbel"	    : "Imbel Folding Stock",
 	
 	"bm_wp_wpn_fps_ass_fusil_762_co_black"      : "Grey Metal",
 	"bm_wp_wpn_fps_ass_fusil_762_co_color"      : "StG Metal",
