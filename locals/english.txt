@@ -10,6 +10,8 @@
 	"bm_menu_pistol_grip_plural"      : "Grips",
 	"bm_menu_finish"                  : "Finish",
 	"bm_menu_finish_plural"           : "Finishes",
+	"bm_menu_scope_mount"             : "Scope Mount",
+	"bm_menu_scope_mount_plural"      : "Scope Mounts",
 	
 	"bm_wp_wpn_fps_ass_fusil_762_hg_stg58_wood" : "Wooden StG-58 Handguard",
 	
