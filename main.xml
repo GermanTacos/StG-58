@@ -34,8 +34,10 @@
 	
 	<WeaponMod id="wpn_fps_ass_fusil_762_ba_stg58" based_on="wpn_fps_ass_scar_b_medium"            type="barrel"         unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_pts/wpn_fps_ass_fusil_762_ba_stg58"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 
-	<WeaponMod id="wpn_fps_ass_fusil_762_fh_stg58" based_on="wpn_fps_upg_ass_ns_battle"            type="barrel_ext"     unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_pts/wpn_fps_ass_fusil_762_fh_stg58"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
-
+	<WeaponMod id="wpn_fps_ass_fusil_762_fh_stg58" based_on="wpn_fps_upg_ass_ns_battle"            type="barrel_ext"     unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_pts/wpn_fps_ass_fusil_762_fh_stg58"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<stats spread="4" recoil="-3"/>
+	</WeaponMod>
+	
 	<WeaponMod id="wpn_fps_ass_fusil_762_hg_stg58_wood" based_on="wpn_fps_ass_flint_body_upperreceiver" type="handguard"      unit="units/mods/weapons/wpn_fps_ass_fusil_762_stg58_pts/wpn_fps_ass_fusil_762_hg_stg58_wood"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats concealment="-2" recoil="1"/>
 		<pcs/>
@@ -64,7 +66,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_fusil_762_fh_fal" based_on="wpn_fps_upg_ass_ns_battle"            type="barrel_ext"     unit="units/mods/weapons/wpn_fps_ass_fusil_762_fal_pts/wpn_fps_ass_fusil_762_fh_fal"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats recoil="3" spread="-2"/>
+		<stats recoil="5" spread="-2"/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -93,6 +95,9 @@
 	<WeaponMod id="wpn_fps_ass_fusil_762_dc_sa58"  based_on="wpn_fps_ass_flint_body_upperreceiver" type="receiver_cover" unit="units/mods/weapons/wpn_fps_ass_fusil_762_sa58_pts/wpn_fps_ass_fusil_762_dc_sa58"    texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats concealment="-1" recoil="1"/>
 		<override/>
+		<forbids>
+			<value_node value="wpn_fps_ass_fusil_762_sm_modern"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 	
@@ -107,6 +112,9 @@
 	
 	<WeaponMod id="wpn_fps_ass_fusil_762_sm_modern" based_on="wpn_fps_ass_flint_body_upperreceiver" type="scope_mount"   unit="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern" texture_bundle_folder="mods" drop="imbel_woodse" is_a_unlockable="true">
 		<stats concealment="-1" recoil="1"/>
+		<forbids>
+			<value_node value="wpn_fps_ass_fusil_762_dc_sa58"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 	
@@ -164,7 +172,7 @@
 	<Weapon unlock_level="5">
 		<weapon id="fusil_762" based_on="scar" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="4" can_shoot_through_shield="false" can_shoot_through_enemy="true" can_shoot_through_wall="true" tactical_reload="1" texture_bundle_folder="mods" global_value="fusil_762">
 			<stats damage="108" spread="17" spread_moving="17" recoil="11" concealment="18"/>
-			<fire_mode_data fire_rate="0.1083333333333333333333"/>
+			<fire_mode_data fire_rate="0.0923"/>
 			<AMMO_PICKUP>
 				<value_node value="1.5"/>
 				<value_node value="4.3"/>
@@ -913,6 +921,24 @@
 		<unit            path="units/mods/weapons/wpn_fps_ass_fusil_762/wpn_fps_ass_fusil_762_npc"/>
 		
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/fusil_762"/>
+		
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_ca_fal"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_ca_fal_wood"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_cl_black"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_cl_color"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_dc_sa58"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_fh_fal"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_fh_stg58"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_hg_fal"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_hg_fal_wood"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_hg_stg58_wood"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_m_30"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_pg_fal"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_pg_fal_wood"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_sm_modern"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_st_fal"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_st_fal_wood"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_fusil_762_st_imbel"/>
 		
 	</AddFiles>
 	

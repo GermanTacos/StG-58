@@ -33,8 +33,8 @@
 	
 	"bm_wp_wpn_fps_ass_fusil_762_sm_modern"	    : "Modern Scope Mount",
 	
-	"bm_wp_wpn_fps_ass_fusil_762_co_black"      : "Grey Metal",
-	"bm_wp_wpn_fps_ass_fusil_762_co_color"      : "StG Metal",
+	"bm_wp_wpn_fps_ass_fusil_762_cl_black"      : "Grey Metal",
+	"bm_wp_wpn_fps_ass_fusil_762_cl_color"      : "StG Metal",
 	
 	"bm_wp_wpn_fps_ass_fusil_762_m_30"   	    : "30 Round Steel Magazine"
 	
