@@ -66,7 +66,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_fusil_762_fh_fal" based_on="wpn_fps_upg_ass_ns_battle"            type="barrel_ext"     unit="units/mods/weapons/wpn_fps_ass_fusil_762_fal_pts/wpn_fps_ass_fusil_762_fh_fal"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats recoil="5" spread="-2"/>
+		<stats recoil="8" spread="-4"/>
 		<pcs/>
 	</WeaponMod>
 	
