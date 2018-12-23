@@ -103,20 +103,15 @@
 	
 	<!-- IMBEL -->
 	
-	<WeaponMod id="wpn_fps_ass_fusil_762_st_imbel" based_on="wpn_fps_ass_flint_body_upperreceiver" type="stock"          unit="units/mods/weapons/wpn_fps_ass_fusil_762_imbel_pts/wpn_fps_ass_fusil_762_st_imbel"  texture_bundle_folder="mods" drop="imbel_woodse" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_fusil_762_st_imbel" based_on="wpn_fps_ass_flint_body_upperreceiver" type="stock"          unit="units/mods/weapons/wpn_fps_ass_fusil_762_imbel_pts/wpn_fps_ass_fusil_762_st_imbel"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats concealment="3" recoil="-2"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<!-- MODERN -->
 	
-	<WeaponMod id="wpn_fps_ass_fusil_762_sm_modern" based_on="wpn_fps_ass_flint_body_upperreceiver" type="scope_mount"   unit="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern" texture_bundle_folder="mods" drop="imbel_woodse" is_a_unlockable="true">
-		<stats concealment="-1" recoil="1"/>
-		<forbids>
-			<value_node value="wpn_fps_ass_fusil_762_dc_sa58"/>
-		</forbids>
-		<pcs/>
-	</WeaponMod>
+	<WeaponMod id="wpn_fps_ass_fusil_762_sm_modern" based_on="wpn_fps_ass_flint_body_upperreceiver" type="scope_mount"   unit="units/mods/weapons/wpn_fps_ass_fusil_762_modern_pts/wpn_fps_ass_fusil_762_sm_modern" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+
 	
 	<!-- MAGS -->
 	
@@ -192,6 +187,7 @@
 				<value_node value="barrel_ext"/>
 			</optional_types>
 			<override/>
+			<adds/>
 			<default_blueprint>
 			
 				<value_node value="wpn_fps_ass_fusil_762_lr_stg58"/>

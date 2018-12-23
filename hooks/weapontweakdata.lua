@@ -23,7 +23,7 @@ if ( self.fusil_762 ) then
 	self:SetupAttachmentPoint("fusil_762", {
 		name = "a_o", 
         base_a_obj = "a_o", 
-        position = Vector3( 0, -7, 0.5 ), 
+        position = Vector3( 0, -9, -1.3 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("fusil_762", {
