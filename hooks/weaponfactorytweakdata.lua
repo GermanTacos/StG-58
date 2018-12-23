@@ -1,5 +1,6 @@
 Hooks:PostHook( WeaponFactoryTweakData, "init", "STG58modInit", function(self)
 	
+	self.parts.wpn_fps_ass_fusil_762_fh_stg58.pcs = nil
 	
 	self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762 = {translation = Vector3(0, 5, -3.05)}
 	self.parts.wpn_fps_upg_o_aimpoint.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
